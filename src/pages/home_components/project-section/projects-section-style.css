@@ -1,0 +1,84 @@
+ .projects-section {
+    margin: 150px 0;
+  }
+  
+   .projects-section .layer-1 {
+    background: gold;
+    width: 150px;
+    height: 230px;
+    position: relative;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+   .projects-section .layer-1 .layer-images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+   .projects-section .layer-1 .layer-images img {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 17px;
+    -webkit-transform: skewY(10deg);
+            transform: skewY(10deg);
+    left: 42px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+   .projects-section .layer-1 .layer-images img:nth-child(2) {
+    left: 6px;
+    -webkit-transform: skewY(10deg) rotateY(45deg);
+    transform: skewY(17deg) rotateY(22deg);
+    top: 23px;
+  }
+  
+   .projects-section .layer-1 .layer-2 {
+    background: #ffd700e0;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    -webkit-transform: skewY(31deg) rotateY(354deg);
+            transform: skewY(31deg) rotateY(354deg);
+    top: 22px;
+    left: 0px;
+    -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  
+   .projects-section .layer-1 .layer-2::after {
+    content: "";
+    width: 8px;
+    height: 119px;
+    background: gold;
+    position: absolute;
+    right: -7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 3px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+   .projects-section .project-items {
+    padding: 55px 0;
+    padding-left: 14px;
+   
+  }
+  
+   .projects-section .project-items .project-card {
+    color: white;
+    
+    position: relative;
+  }
+  
+   .projects-section .project-items .project-card:hover {
+    cursor: pointer;
+  }
+ 
+  
+ 
+  

@@ -1,0 +1,29 @@
+
+  
+ main {
+    padding-top: 150px;
+  }
+  
+ .intro {
+    position: relative;
+
+  }
+  
+.name {
+    color: #66FCF1;
+  }
+  
+ .name h1 {
+    position: relative;
+    font-size: 5rem;
+  }
+  
+ .name h1::before {
+    content: "Kanan Gasimov";
+    color: #F76C6C;
+    position: absolute;
+    bottom: 4px;
+    left: -5px;
+  
+  }
+ 

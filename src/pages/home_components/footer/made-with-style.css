@@ -1,0 +1,67 @@
+.made-with{
+    margin-bottom: 40px;
+}
+.skils-box ul {
+
+    list-style: none;
+
+}
+
+.skils-box ul li {
+
+    color: #66FCF1;
+}
+
+.skill-mention {
+
+    padding-bottom: 20px;
+    color: #F76C6C !important;
+}
+
+.footer {
+    padding: 60px 0;
+}
+
+.footer span {
+
+    color: #fff;
+    font-family:
+    "Roboto Mono", monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.footer-content {
+    padding: 20px 0;
+    font-family:"Roboto Mono", monospace;
+    color: white;
+    
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(104, 42, 233);
+    text-align: start;
+    text-indent: 0px;
+    transition: all 0.3s;
+    line-height:76.8px;
+    vertical-align: baseline;
+    letter-spacing: -3.2px;
+    word-spacing: -6.4px;
+    margin: 0px;
+    padding: 0px;
+    font-size:
+64px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #F76C6C;
+    transition: all 0.3s;
+   
+}
+
+.footer-content a:hover {
+    color: #66FCF1;
+}

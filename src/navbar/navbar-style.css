@@ -1,0 +1,24 @@
+.my-navbar .navbar-menu ul li {
+    position: relative;
+
+  }
+  
+.my-navbar .navbar-menu ul li a {
+    margin: 0 10px;
+    color: #F76C6C;
+    height: 50px;
+    line-height: 50px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    font-weight: 500;
+   
+  }
+  
+.my-navbar .navbar-menu ul li a span {
+    color: white !important;
+  }
+  
+.my-navbar .navbar-menu ul li a:hover {
+    color: #66FCF1;
+  }
+  

@@ -1,0 +1,36 @@
+.about{
+    padding-top: 8rem;
+}
+
+.about .tag a{
+    display: block;
+  
+    font-size: 4rem;
+    font-weight: 700;
+    word-spacing: -.1em;
+    letter-spacing: -.05em;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    margin-right: -25vw;
+    padding-right: 1rem;
+}
+.contact-about li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.contact-icons{
+
+   /*   #66FCF1 */
+   color: #66FCF1;
+   font-size: 35px;
+}
+.resume{
+    border-radius: 50px;
+    margin-left: 10px;
+    background: #66FCF1;
+    color: black;
+    
+
+}
