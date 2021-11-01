@@ -20,7 +20,7 @@ let project_array = [{img:img1,project:{
 title:"Ubuntu World",
 url:"",
 short_desc:"Ubuntu world is a video based question-answer survey application",
-long_desc:"Users can prepare suverys in the application, specify conditions , and send more than one form to more than one person via email or phone number.",
+long_desc:"Users can prepare surveys in the application, specify conditions , and send more than one form to more than one person via email or phone number.",
 tech:"React.js , Redux , Material-ui , Aws , Node.js , DynomoDB , Firebase cloud , Twillio , Rest api  "
 
 }},
