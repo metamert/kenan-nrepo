@@ -12,32 +12,22 @@ import Footer from "../home_components/footer/footer"
 
 export default function Home() {
   const [state, setState] = React.useState([]);
-  const [loading, setLoading]= React.useState(true)
-  React.useEffect(async () => {
-    const projelerim = db.collection("projects");
-    const snapshot = await projelerim.get();
-    let project_array = [];
-    snapshot.forEach((doc) => {
-      project_array.push(doc.data());
-    });
-    console.log(project_array);
-    setState(project_array);
-    setLoading(false)
-  }, []);
+  
+
 
   return (
     <div className="sections">
-   {loading ? <h1>yukleniyor</h1> :    
+ 
     <div className="container">
       <Name/>
+      <Footer/>
       <Projects/>
       <Made_with/>
-      <Footer/>
+    
     </div>
     
     
-    }
-   
+    
 
     </div>
   );

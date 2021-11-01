@@ -13,9 +13,10 @@ export default function name() {
           <div className="tag">
             <a href="">name</a>
           </div>
-          <div className="name">
-            <h1>Kanan Gasimov</h1>
-          </div>
+        
+            <h1 className="introH"> I.am(<span className="appRed">" Orkun Mert Yiğit "</span>)</h1>
+            
+          
           <div className="section-info col-lg-5">
             <p>// I am a creative frontend developer.</p>
             <p>From Azerbaijan, based in Turkey.</p>

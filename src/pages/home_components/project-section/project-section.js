@@ -15,6 +15,7 @@ export default function project_section() {
         <div className="tag">
           <a href="">projects</a>
         </div>
+        <h1 className="introH m-20">Projects(<span className="appRed">"selected"</span>)</h1>
         <div class="section-info col-lg-5">
                     <p>
                         // Some choose stuffs I've worked on.

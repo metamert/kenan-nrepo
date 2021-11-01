@@ -1,118 +1,50 @@
-import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "../../../App.js"
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../../../App.js";
 import "./made-with-style.css";
-
+import Box from "../../../components/box";
+import Line from "../../../components/line"
 
 export default function made_with() {
-    return (
-        <div className="made-with">
-            
-              <div className="tag">
-               <a href="">tech</a>
-              </div>
+  return (
+    <div className="made-with">
+      <div className="tag">
+        <a href="">About</a>
+      </div>
 
-              <div className="section-info col-lg-5">
-            <p>// Made with</p>
-            
-            </div>
+      <div className="section-info col-lg-5"></div>
 
-              <div className="skills row">
-                  <div className="col-3">
-                     <div className="skils-box">
-                         <ul>
-                         <li className="skill-mention">
-                                {"</>"}
-                             </li>
+      <h1 className="introH m-20">skills()</h1>
 
-                             <li>
-                                 React.js
-                             </li>
-                             <li>
-                                 ScroolMagic
-                             </li>
-                             <li>
-                                 Parallax.js
-                             </li>
-                             <li>
-                                 React.js
-                             </li>
-                         </ul>
-                     </div>
-                  </div>
-                  <div className="col-3">
-                     <div className="skils-box">
-                         <ul>
-                      
-                      
-                         <li className="skill-mention">
-                                {"~"}
-                             </li>
+      <div className="skills row">
+       <Box title={"Front-end"} listArray={["React,Redux","Html,css","Bootsrap","Material-ui","Socket.io , Lottie"]}>
 
-                             <li>
-                                 React.js
-                             </li>
-                             <li>
-                                 ScroolMagic
-                             </li>
-                             <li>
-                                 Parallax.js
-                             </li>
-                             <li>
-                                 React.js
-                             </li>
-                             <li>
-                                 React.js
-                             </li>
-                             <li>
-                                 ScroolMagic
-                             </li>
-                             <li>
-                                 Parallax.js
-                             </li>
-                         </ul>
-                     </div>
-                  </div>
-                  <div className="col-3">
-                     <div className="skils-box">
-                         <ul>
-                         <li className="skill-mention">
-                                {"@"}
-                             </li>
-                             <li>
-                                 React.js
-                             </li>
-                             <li>
-                                 ScroolMagic
-                             </li>
-                             <li>
-                                 Parallax.js
-                             </li>
-                             <li>
-                                 React.js
-                             </li>
-                             <li>
-                                 React.js
-                             </li>
-                             <li>
-                                 ScroolMagic
-                             </li>
-                             <li>
-                                 Parallax.js
-                             </li>
-                             <li>
-                                 React.js
-                             </li>
-                         </ul>
-                     </div>
-                  </div>
-                  
-              </div>
+       </Box>
+       <Box title={"Back-end"} listArray={["Node.js","Socket.io","Jwt, oAuth2 , Redis","MongoDB , Firebase","PostgreSql , MySql", "Rest Api , GraphQl"]}>
+
+</Box>
+<Box title={"Scalping"} listArray={["Puppeteer","Crypto-Scalping","Instagram , Twitter Bots","Trading Bots"]}>
+
+</Box>
+<Box title={"Platforms"} listArray={["Next.js","Gatsby","Aws"]}>
+
+</Box>
+      </div>
+
+      
+     
+
+      <div className="section-info col-lg-5"></div>
+
+      <h1 className="introH m-20">experience()</h1>
+
+      <div className="skills row">
     
-              <div className="tag">
-               <a href="">tech</a>
-              </div>
-             
-        </div>
-    )
+      </div>
+
+      <div className="tag">
+        <a href="">About</a>
+      </div>
+    </div>
+  );
 }

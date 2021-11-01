@@ -6,16 +6,15 @@ export default function footer() {
     return (
         <div className="footer">
              
-             <span>Thanks for visiting my website!</span>
+             
 
              <p className="footer-content">
                  Check out my 
                  <br/>
                  <a href="/projects">
-                     selected works
+                     selected<span className="purple">.(works)</span>
                  </a>
-                 <br/>
-                 for more details...
+              
              </p>
 
         </div>

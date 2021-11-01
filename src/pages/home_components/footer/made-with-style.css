@@ -9,7 +9,7 @@
 
 .skils-box ul li {
 
-    color: #66FCF1;
+    color:white;
 }
 
 .skill-mention {
@@ -47,6 +47,7 @@
     transition: all 0.3s;
     line-height:76.8px;
     vertical-align: baseline;
+    word-break: break-word;
     letter-spacing: -3.2px;
     word-spacing: -6.4px;
     margin: 0px;
@@ -57,7 +58,7 @@
 
 .footer-content a {
     text-decoration: none;
-    color: #F76C6C;
+    color: white;
     transition: all 0.3s;
    
 }
