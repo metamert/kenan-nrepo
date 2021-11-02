@@ -4,7 +4,7 @@ import "./App.css";
 import * as ScrollMagic from "scrollmagic";
 import About from "../src/pages/About";
 import Intro from "../src/pages/Intro";
-import { gsap,  CSSPlugin } from "gsap/all";
+import { gsap,  CSSPlugin } from "gsap";
  
 
 import {
