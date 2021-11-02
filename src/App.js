@@ -4,6 +4,8 @@ import "./App.css";
 import * as ScrollMagic from "scrollmagic";
 import About from "../src/pages/About";
 import Intro from "../src/pages/Intro";
+import { gsap,  CSSPlugin } from "gsap/all";
+ 
 
 import {
   BrowserRouter as Router,
@@ -17,6 +19,9 @@ import { TimelineMax, Power3, Power0, Power2, Elastic } from "gsap";
 
 import "./styles/nprogress.scss";
 import "./styles/app.scss";
+
+
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -36,6 +41,7 @@ export default class App extends React.Component {
     };
   }
   componentDidMount() {
+    gsap.registerPlugin(CSSPlugin)
     /**
      * @desc
      * Intro scene
