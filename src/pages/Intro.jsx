@@ -6,6 +6,7 @@ import Lottie from "react-lottie";
 import animationData from "../assets/lottie/wave2.json";
 import Slick from "../components/slick"
 import {Link} from "react-router-dom"
+import Cubes from "../components/cubes"
 
 const defaultOptions = {
   loop: true,
@@ -32,8 +33,9 @@ const [timer,setTimer]=React.useState(false)
 
   return (
     <div id="intro" className="wrapper ">
+      
      <div className="relative">
-   
+  
           <div class="spine" >
 
           {timer&& <Lottie
@@ -64,7 +66,7 @@ const [timer,setTimer]=React.useState(false)
       
         <div class="static-container ">
       
-          <h1 class="title">
+        <h1 class="title">
             <span class="iuri">I</span>
             <span class="func">.am</span>{"<"} a <span className="inline-block"><RevealText/>  dev.{"/>"} </span>
           </h1>
@@ -82,11 +84,14 @@ const [timer,setTimer]=React.useState(false)
         
         <Link to="/about" className="zin"> <div role="button" className="buttonApp hoverMe">About.me()</div></Link>
         </div>
-       
+        <h1 className="title " style={{marginTop:150}}>
+        <span class="iuri">Co founder of</span> <a href="https://metaliga.io"> <span class="func">  metaliga.io</span> </a>
+        </h1>
         </div>
-        
+       
         
       </section>
+      
       <Slick></Slick>
     </div>
   );

@@ -14,9 +14,21 @@ import img6 from "../assets/project_images/6.jpeg";
 import img7 from "../assets/project_images/7.png";
 import img8 from "../assets/project_images/8.png";
 import img9 from "../assets/project_images/9.png";
+
+import metaliga from "../assets/metaliga.png";
+
 import {BsFillPauseFill} from "react-icons/bs"
 import {FaDraft2Digital, FaPlay} from "react-icons/fa"
-let project_array = [{img:img1,project:{
+let project_array = [
+  {img:metaliga,project:{
+    title:"Metaliga.io",
+    url:"https://metaliga.io",
+    short_desc:"Metaliga is a blockchain GamiFi project. Still in development",
+   
+    tech:"React.js , Solana-api , Near Tools"
+    
+    }},
+  {img:img1,project:{
 title:"Ubuntu World",
 url:"",
 short_desc:"Ubuntu world is a video based question-answer survey application",
@@ -118,9 +130,9 @@ slider.slickPlay();
   }
   const settings = {
     infinite: true,
-    speed: 400,
+    speed: 200,
     slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
 
     responsive: [
       {
@@ -151,7 +163,8 @@ slider.slickPlay();
         ref={slider => (setSlider(slider))}
         autoplaySpeed={2000}
         autoplay
-        pauseOnFocus
+        pauseOnFocus={true}
+       pauseOnHover={false}
         slickNext={Play}
         slickPause={Pouse}
         arrows={false}
